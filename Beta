@@ -1,0 +1,64 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/slf0Dev/Ocerium_Project/main/Library.lua"))()
+
+local Window = Library:Main("proton_v8", "LeftAlt") -- change "LeftAlt" to the key that you want to hide the GUI
+
+--//tab
+local Tab1 = Window:NewTab("blade ball")
+
+--//section
+local Section1 = Tab1:NewSection("blade ball")
+
+--// Button
+local Button1 = Section1:NewButton("Bedol", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/SourceLua/main/Blade_Ball.lua"))() 
+end)
+
+--//tab
+local Tab2 = Window:NewTab("proton v7 old")
+
+--//section
+local Section2 = Tab2:NewSection("OG PROTON")
+
+--// Button
+local Button2 = Section2:NewButton("protonhubv7", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Kyke785/Deezhun/main/Main", true))()
+end)
+
+--//tab
+local Tab3 = Window:NewTab("Brookhaven")
+
+--//section
+local Section3 = Tab3:NewSection("Brookhaven")
+
+--// Button
+local Button3 = Section3:NewButton("Brookhaven script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+end)
+
+--//tab
+local Tab4 = Window:NewTab("prison life")
+
+--//section
+local Section4 = Tab4:NewSection("prison life")
+
+--// Button
+local Button4 = Section4:NewButton("pron life script op", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/0Jyaa9aQ"))()
+end)
+
+--//tab
+local Tab5 = Window:NewTab("blox fruit")
+
+--//section
+local Section5 = Tab5:NewSection("hoho hub")
+
+--// Button
+local Button5 = Section5:NewButton("Blox script", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+end)
+
+--//tab
+local Tab6 = Window:NewTab("credits")
+
+--//section
+local Section6 = Tab6:NewSection("@luascripts")
