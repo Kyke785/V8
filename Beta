@@ -1,6 +1,6 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/slf0Dev/Ocerium_Project/main/Library.lua"))()
 
-Window = Library.Main("proton_v8", "LeftAlt") -- change "LeftAlt" to the key that you want to hide the GUI
+Window = Library.Main("proton_v9", "L") -- change "L" to the key that you want to hide the GUI
 
 --//tab
 local Tab1 = Window.NewTab("PROTON HUB")
