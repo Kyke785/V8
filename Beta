@@ -208,10 +208,21 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/L
 end)
 
 --//Toggles
-local EnabledToggle = Section.NewToggle("Enabled Toggle",function(bool)
+local EnabledToggle = Section.NewToggle("",function(bool)
 -- code here
 end,true) -- "true" is the default value of toggle
 
 local DisabledToggle = Section.NewToggle("Disabled Toggle",function(bool)
 -- code here
 end,false) -- "false" is the default value of toggle
+
+--//tab
+local Tab = Window.NewTab("universal hacks")
+
+--//section
+local Section = Tab.NewSection("fly hack")
+
+--// Button
+local Button = Section.NewButton("hoho hub mby",function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+end)
