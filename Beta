@@ -226,3 +226,11 @@ local Section = Tab.NewSection("fly hack")
 local Button = Section.NewButton("fly gui v3",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
 end)
+
+--//section
+local Section = Tab.NewSection("piano games")
+
+--// Button
+local Button = Section.NewButton("auto piano player",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/VBfHKC86WxpXyIgr/iwiwiejsaIwidi/main/iaowjdhd.lua", true))()
+end)
