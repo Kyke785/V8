@@ -61,6 +61,11 @@ local Button3 = Section3.NewButton("DEEZNUT HUB", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Devkigz/v5/main/v5hub", true))()
 end)
 
+--// Button
+local Button3 = Section3.NewButton("DEEZNUT HUB", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven", true))()
+end)
+
 --//Toggles
 local EnabledToggle3 = Section3.NewToggle("TRY?!?!", function(bool)
     Rayfield:Notify({
