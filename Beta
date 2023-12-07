@@ -233,6 +233,14 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/
 end)
 
 --//section
+local Section = Tab.NewSection("universal")
+
+--// Button
+local Button = Section.NewButton("keyboard gui",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+end)
+
+--//section
 local Section = Tab.NewSection("piano games")
 
 --// Button
